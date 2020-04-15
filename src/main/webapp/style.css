@@ -1,5 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  background-color: #F2FECE;
+}
+
+h1 {
+  color: #6C8C0C;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  position: relative;
+  text-align: center;
+}
+
+.map_title {
+  color: #709206;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  position: fixed;
+  top: 15%;
+  left: 3%;
+  width: 500px;
+  height: 20px;
+}
+
 #map {
-  border: thin solid black;
   height: 500px;
   width: 500px;
+  position: fixed;
+  top: 12%;
+  left: 3%;
+}
+
+.forum_title {
+  color: #709206;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  position: fixed;
+  top: 15%;
+  right: 3%;
+  width: 500px;
+  height: 20px;
+}
+
+.forum_container {
+  position: fixed;
+  width: 400px;
+  height: 100px;
+  top: 20%;
+  right: 3%;
+}
+
+textarea {
+  background-color: #FFFFFF;
+  width: 95%;
+  color: #8DB60F;
+  font-family: "Roboto", sans-serif;
+  border: rgba(0, 0, 0, 0);
+  font-size: 13px;
+  margin-bottom: 8px;
+  height: 100px;
+  width: 100%;
+}
+
+input {
+  position: absolute;
+  top: 110px;
+  right: 0;
+  color: #709206;
+  font-family: 'Roboto', sans-serif;
 }

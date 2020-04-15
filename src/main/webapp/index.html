@@ -9,8 +9,14 @@
   </head>
   <body onload="createMap();">
     <h1>Covid-19 Forum</h1>
-    <h2>Map location example</h2>
+    <div class="map_title">Map location example</div>
     <div id="map"></div>
+    <div class="forum_title">Forum</div>
+    <div class="forum_container">
+      <form action="/data" method="POST">
+        <textarea name="text-input">In the midst of all the chaos...</textarea>
+        <input class="input" type="submit"/>
+      </form>
+    </div>
   </body>
 </html>
-
