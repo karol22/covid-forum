@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   height: 100vh;
   overflow: hidden;
@@ -28,7 +32,7 @@ h1 {
   text-align: center;
   position: fixed;
   top: 15%;
-  left: 3%;
+  left: 7%;
   width: 500px;
   height: 20px;
 }
@@ -36,9 +40,8 @@ h1 {
 #map {
   height: 500px;
   width: 500px;
-  position: fixed;
   top: 12%;
-  left: 3%;
+  left: 7%;
 }
 
 .forum_title {
@@ -49,35 +52,57 @@ h1 {
   text-align: center;
   position: fixed;
   top: 15%;
-  right: 3%;
+  right: 10%;
   width: 500px;
   height: 20px;
 }
 
 .forum_container {
   position: fixed;
-  width: 400px;
+  width: 500px;
   height: 100px;
   top: 20%;
-  right: 3%;
+  right: 10%;
 }
 
 textarea {
   background-color: #FFFFFF;
-  width: 95%;
+  width: 100%;
   color: #8DB60F;
   font-family: "Roboto", sans-serif;
   border: rgba(0, 0, 0, 0);
   font-size: 13px;
   margin-bottom: 8px;
-  height: 100px;
-  width: 100%;
+  height: 80px;
 }
 
 input {
   position: absolute;
-  top: 110px;
+  top: 95px;
   right: 0;
   color: #709206;
   font-family: 'Roboto', sans-serif;
+}
+
+.forum_content {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  top: 30%;
+  display: flex;
+  overflow: auto;
+}
+
+.forum_content_1 {
+  height: 1000px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: min-content;
+}
+
+#post {
+  border: 1px solid goldenrod;
+  width: 495px;
+  height: 100px;
 }
