@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  background-color: #F2FECE;
+}
+
+h1 {
+  color: #6C8C0C;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  position: relative;
+  text-align: center;
+}
+
+.map_title {
+  color: #709206;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  position: fixed;
+  top: 15%;
+  left: 7%;
+  width: 500px;
+  height: 20px;
+}
+
+#map {
+  height: 500px;
+  width: 500px;
+  top: 12%;
+  left: 7%;
+}
+
+.forum_title {
+  color: #709206;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  position: fixed;
+  top: 15%;
+  right: 10%;
+  width: 500px;
+  height: 20px;
+}
+
+.forum_container {
+  position: fixed;
+  width: 500px;
+  height: 100px;
+  top: 20%;
+  right: 10%;
+}
+
+textarea {
+  background-color: #FFFFFF;
+  width: 100%;
+  color: #8DB60F;
+  font-family: "Roboto", sans-serif;
+  border: rgba(0, 0, 0, 0);
+  font-size: 13px;
+  margin-bottom: 8px;
+  height: 80px;
+}
+
+input {
+  position: absolute;
+  top: 95px;
+  right: 0;
+  color: #709206;
+  font-family: 'Roboto', sans-serif;
+}
+
+.forum_content {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  top: 30%;
+  display: flex;
+  overflow: auto;
+}
+
+.forum_content_1 {
+  height: 1000px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: min-content;
+}
+
+#post_0 {
+  border: 1px solid goldenrod;
+  width: 495px;
+  height: 100px;
+  font-size: 13px;
+  color: #8DB60F;
+  font-family: "Roboto", sans-serif;
+}
+#post_1 {
+  border: 1px solid goldenrod;
+  width: 495px;
+  height: 100px;
+  font-size: 13px;
+  color: #8DB60F;
+  font-family: "Roboto", sans-serif;
+}
+#post_2 {
+  border: 1px solid goldenrod;
+  width: 495px;
+  height: 100px;
+  font-size: 13px;
+  color: #8DB60F;
+  font-family: "Roboto", sans-serif;
+}
+#post_3 {
+  border: 1px solid goldenrod;
+  width: 495px;
+  height: 100px;
+  font-size: 13px;
+  color: #8DB60F;
+  font-family: "Roboto", sans-serif;
+}
+#post_4 {
+  border: 1px solid goldenrod;
+  width: 495px;
+  height: 100px;
+  font-size: 13px;
+  color: #8DB60F;
+  font-family: "Roboto", sans-serif;
+}

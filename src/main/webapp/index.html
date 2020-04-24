@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Covid-19 Forum</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=API_KEY"></script>
+  </head>
+  <body onload="createMap();">
+    <h1>Covid-19 Forum</h1>
+    <div class="map_title">Map location example</div>
+    <div id="map"></div>
+    <div class="forum_title">Forum</div>
+    <div class="forum_container">
+      <form action="/data" method="POST">
+        <textarea name="text-input">In the midst of all the chaos...</textarea>
+        <input class="input" type="submit"/>
+      </form>
+      <div class="forum_content">
+        <div class="forum_content_1">
+          <div id="post_0"></div>
+          <div id="post_1"></div>
+          <div id="post_2"></div>
+          <div id="post_3"></div>
+          <div id="post_4"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="script.js"></script>
+</html>

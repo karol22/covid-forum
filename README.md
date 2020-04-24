@@ -1,2 +1,2 @@
 # covid-forum
-Part of Google Software Product Sprint 2020
+This project is part of Google Software Product Sprint 2020
